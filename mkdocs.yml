@@ -36,6 +36,7 @@ nav:
               - P1001:
                   - Problem: "./docs/题库/主题库/入门/P1001/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1001/C++.md"
+                  - Python3题解: "./docs/题库/主题库/入门/P1001/Python3.md"
 
 # Theme
 theme:
