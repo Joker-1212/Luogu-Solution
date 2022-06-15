@@ -12,6 +12,42 @@ repo_url: https://github.com/Joker-1212/luogu-solution
 # Contents
 nav:
   - HomePage: "./index.md"
+  - 算法:
+      - HomePage: "./docs/算法/index.md"
+      - 搜索:
+          - HomePage: "./docs/算法/搜索/index.md"
+          - 入门:
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+      - 数学:
+          - HomePage: "./docs/算法/数学/index.md"
+          - 入门:
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+      - 素数判断，质数，筛法:
+          - HomePage: "./docs/算法/素数判断，质数，筛法/index.md"
+          - 入门:
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+  - 难度:
+      - HomePage: "./docs/难度/index.md"
+      - 入门:
+          - HomePage: "./docs/难度/入门/index.md"
+          - P1046:
+              - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+  - 题库:
+      - HomePage: "./docs/题库/index.md"
+      - 洛谷主题库:
+          - HomePage: "./docs/题库/主题库/index.md"
+          - 入门:
+              - HomePage: "./docs/题库/主题库/入门/index.md"
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
 
 # Theme
 theme:
