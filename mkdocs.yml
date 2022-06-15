@@ -12,7 +12,45 @@ repo_url: https://github.com/Joker-1212/luogu-solution
 # Contents
 nav:
   - HomePage: "./index.md"
-
+  - 算法:
+      - HomePage: "./算法/index.md"
+      - 模拟:
+          - HomePage: "./算法/模拟/index.md"
+          - 入门:
+              - P1059:
+                  - Problem: "./题库/主题库/入门/P1059/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1059/C++.md"
+      - 排序:
+          - HomePage: "./算法/排序/index.md"
+          - 入门:
+              - P1059:
+                  - Problem: "./题库/主题库/入门/P1059/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1059/C++.md"
+  - 时间:
+      - HomePage: "./时间/index.md"
+      - 2006:
+          - HomePage: "./施加/2006/index.md"
+          - 入门:
+              - P1059:
+                  - Problem: "./题库/主题库/入门/P1059/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1059/C++.md"
+  - 来源:
+      - HomePage: "./来源/index.md"
+      - NOIp普及组:
+          - HomePage: "./来源/NOIp普及组/index.md"
+          - 入门:
+              - P1059:
+                  - Problem: "./题库/主题库/入门/P1059/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1059/C++.md"
+  - 题库:
+      - HomePage: "./题库/index.md"
+      - 洛谷主题库:
+          - HomePage: "./题库/洛谷主题库/index.md"
+          - 入门:
+              - HomePage: "./题库/主题库/入门/index.md"
+              - P1059:
+                  - Problem: "./题库/主题库/入门/P1059/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1059/C++.md"
 # Theme
 theme:
   name: null
