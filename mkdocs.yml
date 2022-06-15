@@ -12,7 +12,36 @@ repo_url: https://github.com/Joker-1212/luogu-solution
 # Contents
 nav:
   - HomePage: "./index.md"
-
+  - 算法:
+      - HomePage: "./算法/index.md"
+      - 模拟:
+          - HomePage: "./算法/模拟/index.md"
+          - 入门:
+              - P1116:
+                  - Problem: "./题库/主题库/入门/P1116/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1116/C++.md"
+      - 排序:
+          - HomePage: "./算法/排序/index.md"
+          - 入门:
+              - P1116:
+                  - Problem: "./题库/主题库/入门/P1116/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1116/C++.md"
+  - 难度:
+      - HomePage: "./难度/index.md"
+      - 入门:
+          - HomePage: "./难度/入门/index.md"
+          - P1116:
+              - Problem: "./题库/主题库/入门/P1116/Problem.md"
+              - C++题解: "./题库/主题库/入门/P1116/C++.md"
+  - 题库:
+      - HomePage: "./题库/index.md"
+      - 洛谷主题库:
+          - HomePage: "./题库/主题库/index.md"
+          - 入门:
+              - HomePage: "./题库/主题库/入门/index.md"
+              - P1116:
+                  - Problem: "./题库/主题库/入门/P1116/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1116/C++.md"
 # Theme
 theme:
   name: null
