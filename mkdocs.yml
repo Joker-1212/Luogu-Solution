@@ -12,6 +12,42 @@ repo_url: https://github.com/Joker-1212/luogu-solution
 # Contents
 nav:
   - HomePage: "./index.md"
+  - 算法:
+      - HomePage: "./算法/index.md"
+      - 字符串:
+          - HomePage: "./算法/字符串/index.md"
+          - 入门:
+              - P1151:
+                  - Problem: "./题库/主题库/入门/P1151/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1151/C++.md"
+      - 搜索:
+          - HomePage: "./算法/搜索/index.md"
+          - 入门:
+              - P1151:
+                  - Problem: "./题库/主题库/入门/P1151/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1151/C++.md"
+      - 枚举，暴力:
+          - HomePage: "./算法/枚举，暴力/index.md"
+          - 入门:
+              - P1151:
+                  - Problem: "./题库/主题库/入门/P1151/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1151/C++.md"
+  - 难度:
+      - HomePage: "./难度/index.md"
+      - 入门:
+          - HomePage: "./难度/入门/index.md"
+          - P1151:
+              - Problem: "./题库/主题库/入门/P1151/Problem.md"
+              - C++题解: "./题库/主题库/入门/P1151/C++.md"
+  - 题库:
+      - HomePage: "./题库/index.md"
+      - 洛谷主题库:
+          - HomePage: "./题库/主题库/index.md"
+          - 入门:
+              - HomePage: "./题库/主题库/入门/index.md"
+              - P1151:
+                  - Problem: "./题库/主题库/入门/P1151/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1151/C++.md"
 
 # Theme
 theme:
