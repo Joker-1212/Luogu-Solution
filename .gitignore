@@ -8,5 +8,4 @@ node_modules
 *.exe
 site
 temp
-files.py
 commit.ps1
