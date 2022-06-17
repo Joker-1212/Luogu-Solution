@@ -16,7 +16,6 @@ nav:
       - HomePage: "./笔记/index.md"
       - 洛谷日报:
           - HomePage: "./笔记/洛谷日报/index.md"
-          - 日报#398：有限微积分与数列求和: "./笔记/洛谷日报/【日报#398】有限微积分与数列求和.md"
       - 题解:
           - HomePage: "./笔记/题解/index.md"
 
