@@ -2,8 +2,8 @@
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>字符串</font>](../../../../算法/字符串/index.md)$\quad$<font color=F39C11>O2优化</font>$\quad$**
 
-***Time: 1000ms***
-***Memory: 128MB***
+***Time Limit: 1000ms***
+***Memory Limit: 128MB***
 
 ## 题目背景
 

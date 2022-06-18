@@ -31,7 +31,7 @@ nav:
               - Python3题解: "./题库/主题库/入门/P1000/Python3.md"
   - 题库:
       - HomePage: "./题库/index.md"
-      - 主题库:
+      - 洛谷主题库:
           - HomePage: "./题库/主题库/index.md"
           - 入门:
               - HomePage: "./题库/主题库/入门/index.md"
