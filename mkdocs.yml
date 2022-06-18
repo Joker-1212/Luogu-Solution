@@ -12,6 +12,33 @@ repo_url: https://github.com/Joker-1212/luogu-solution
 # Contents
 nav:
   - HomePage: "./index.md"
+  - 算法:
+      - HomePage: "./算法/index.md"
+      - 字符串:
+          - HomePage: "./算法/字符串/index.md"
+          - 入门:
+              - P1000:
+                  - Problem: "./题库/主题库/入门/P1000/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1000/C++.md"
+                  - Python3题解: "./题库/主题库/入门/P1000/Python3.md"
+  - 难度:
+      - HomePage: "./难度/index.md"
+      - 入门:
+          - HomePage: "./难度/入门/index.md"
+          - P1000:
+              - Problem: "./题库/主题库/入门/P1000/Problem.md"
+              - C++题解: "./题库/主题库/入门/P1000/C++.md"
+              - Python3题解: "./题库/主题库/入门/P1000/Python3.md"
+  - 题库:
+      - HomePage: "./题库/index.md"
+      - 洛谷主题库:
+          - HomePage: "./题库/主题库/index.md"
+          - 入门:
+              - HomePage: "./题库/主题库/入门/index.md"
+              - P1000:
+                  - Problem: "./题库/主题库/入门/P1000/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1000/C++.md"
+                  - Python3题解: "./题库/主题库/入门/P1000/Python3.md"
   - 笔记:
       - HomePage: "./笔记/index.md"
       - 洛谷日报:
