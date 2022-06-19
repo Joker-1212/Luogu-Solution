@@ -27,8 +27,8 @@ def new_file(path):
 
 
 prob = sys.argv[1:]
-bank = BANK[prob[0][0]] if not (
-    prob[0][0] == 'U' and prob[0][1] != 'V') else "用户题目"
+bank = [BANK[prob[0][0]] if not (
+    prob[0][0] == 'U' and prob[0][1] != 'V') else "用户题目"]
 print("难度序号:")
 for i in range(8):
     print(f"{i}: {CODE[str(i)]}")
