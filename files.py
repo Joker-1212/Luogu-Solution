@@ -160,7 +160,7 @@ while cmd != 'q':
 
         with open(c(["难度", "index.md"]), 'w', encoding='utf-8') as f:
             f.write("# 难度\n\n按难度分类题解")
-        with open(c(["难度", diff[0], "index.md"]), 'w', encoding='utf-8') as f:
+        with open(c(["难度", diff[0].replace("/", "、"), "index.md"]), 'w', encoding='utf-8') as f:
             f.write("# <font color=" + COLOR[diff[0]] + ">" + diff[0] +
                     "</font>\n\n<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
 
