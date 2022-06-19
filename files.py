@@ -1,10 +1,14 @@
-from ctypes.wintypes import POINT
 import os
 import sys
 
 COLOR = {"暂无评定": "BFBFBF", "入门": "FE4C61", "普及-": "F39C11", "普及/提高-": "FFC116", "普及+/提高": "52C41A", "提高+/省选-": "3498DB", "省选/NOI-": "9D3DCF",
          "NOI/NOI+/CTSC": "0E1D69", "Algorithem": "2949B4", "Source": "13C2C2", "Time": "3498DB", "District": "52C41A", "Special": "F39C11"}
 ROOT = ["E:", "OI", "Luogu-Solution", "docs"]
+LANG = ["cpp", "py"]
+NAME = {"cpp": "C++", "py": "Python3"}
+CODE = {'0': "暂无评定", "1": "入门", "2": "普及-", "3": "普及/提高-",
+        "4": "普及+/提高", "5": "提高+/省选-", "6": "省选/NOI-", "7": "NOI/NOI+/CTSC"}
+BANK = {'P': "主题库", "C": "CodeForces", "A": "AtCoder", "U": "UVA", "T": "团队题目"}
 
 
 def c(args):
@@ -23,37 +27,16 @@ def new_file(path):
 
 
 prob = sys.argv[1:]
-if prob[0].startswith('P'):
-    bank = ["主题库"]
-if prob[0].startswith('CF'):
-    bank = ["CodeForces"]
-if prob[0].startswith('SP'):
-    bank = ["SPOJ"]
-if prob[0].startswith('AT'):
-    bank = ["AtCoder"]
-if prob[0].startswith('UVA'):
-    bank = ["UVA"]
-if prob[0].startswith('T'):
-    bank = ["团队题目"]
+bank = BANK[prob[0][0]] if not (
+    prob[0][0] == 'U' and prob[0][1] != 'V') else "用户题目"
+print("难度序号:")
+for i in range(8):
+    print(f"{i}: {CODE[str[i]]}")
 diff = list(map(lambda x: x.strip(), input("难度(用序号表示): ").split()))
-if diff[0] == '0':
-    diff = ["暂无评定"]
-if diff[0] == '1':
-    diff = ["入门"]
-if diff[0] == '2':
-    diff = ["普及-"]
-if diff[0] == '3':
-    diff = ["普及/提高-"]
-if diff[0] == '4':
-    diff = ["普及+/提高"]
-if diff[0] == '5':
-    diff = ["提高+/省选-"]
-if diff[0] == '6':
-    diff = ["省选/NOI-"]
-if diff[0] == '7':
-    diff = ["NOI/NOI+/CTSC"]
+diff = [CODE[diff[0]]]
 PROBLEM = ["题库", bank[0], diff[0].replace("/", "、"), prob[0]]
 cmd = input(">>> ")
+
 while cmd != 'q':
     if cmd == "p":
         algo = list(map(lambda x: x.strip(), input("算法: ").split()))
@@ -213,75 +196,34 @@ while cmd != 'q':
                     f.write("# <font color=13C2C2>" + s +
                             "</font>\n\n来自<font color=13C2C2>" + s + "</font>的题目的题解")
 
-    elif cmd == 'cpp':
-        num = int(input("输入C++题解数量: "))
-        if num == 1:
-            with open(c(PROBLEM + ["Code.cpp"]), 'x', encoding='utf-8') as f:
-                t = input("输入AC程序(Press 'EOF' to exit)\n")
-                while t != 'EOF':
-                    f.write(t + '\n')
-                    t = input()
-            new_file(c(PROBLEM + ["C++.md"]))
-        else:
-            for i in range(1, num + 1):
-                with open(c(PROBLEM + [f"Code{i}.cpp"]), 'x', encoding='utf-8') as f:
-                    t = input(f"输入AC程序{i}(Press 'EOF' to exit)\n")
-                    while t != 'EOF':
-                        f.write(t + '\n')
-                        t = input()
-                new_file(c(PROBLEM + [f"C++{i}.md"]))
-
-    elif cmd == 'py':
-        num = int(input("输入Python题解数量: "))
-        if num == 1:
-            with open(c(PROBLEM + ["Code.py"]), 'x', encoding='utf-8') as f:
-                t = input("输入AC程序(Press 'EOF' to exit)\n")
-                while t != 'EOF':
-                    f.write(t + '\n')
-                    t = input()
-            new_file(c(PROBLEM + ["Python.md"]))
-        else:
-            for i in range(1, num + 1):
-                with open(c(PROBLEM + [f"Code{i}.py"]), 'x', encoding='utf-8') as f:
-                    t = input(f"输入AC程序{i}(Press 'EOF' to exit)\n")
-                    while t != 'EOF':
-                        f.write(t + '\n')
-                        t = input()
-                new_file(c(PROBLEM + [f"Python{i}.md"]))
-
-    elif cmd == 'h' or cmd == '':
-        print("p: 添加题目")
-        print("cpp: 添加C++题解")
-        print("addcpp: 新增C++题解")
-        print("py: 添加Python3题解")
-        print("addpy: 新增Python3题解")
-        print("q: 退出程序")
-
-    elif cmd == 'addcpp':
+    elif cmd in LANG:
         cnt = len([i for i in os.listdir(c(PROBLEM)) if i.endswith(".cpp")])
         if cnt == 1:
             os.rename(c(PROBLEM + ['Code.cpp']), c(PROBLEM + ['Code1.cpp']))
             os.rename(c(PROBLEM + ['C++.md']), c(PROBLEM + ['C++1.md']))
-        num = int(input("输入C++题解数量: "))
-        for i in range(cnt + 1, cnt + num + 1):
-            with open(c(PROBLEM + [f"Code{i}.cpp"]), 'x', encoding='utf-8') as f:
-                t = input(f"输入AC程序{i}(Press 'EOF' to exit)\n")
+        num = int(input("输入" + NAME[cmd] + "题解数量: "))
+        if num == 1 and cnt == 0:
+            with open(c(PROBLEM + ["Code." + cmd]), 'x', encoding='utf-8') as f:
+                t = input("输入AC程序(Press 'EOF' to exit)\n")
                 while t != 'EOF':
                     f.write(t + '\n')
                     t = input()
-            new_file(c(PROBLEM + [f"C++{i}.md"]))
+            new_file(c(PROBLEM + [NAME[cmd] + ".md"]))
+        else:
+            for i in range(cnt + 1, cnt + num + 1):
+                with open(c(PROBLEM + [f"Code{i}.{cmd}"]), 'x', encoding='utf-8') as f:
+                    t = input(f"输入AC程序{i}(Press 'EOF' to exit)\n")
+                    while t != 'EOF':
+                        f.write(t + '\n')
+                        t = input()
+                new_file(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]))
 
-    elif cmd == 'addpy':
-        cnt = len([i for i in os.listdir(c(PROBLEM)) if i.endswith(".py")])
-        if cnt == 1:
-            os.rename(c(PROBLEM + ['Code.py']), c(PROBLEM + ['Code1.py']))
-            os.rename(c(PROBLEM + ['Python.md']), c(PROBLEM + ['Python1.md']))
-        num = int(input("输入Python题解数量: "))
-        for i in range(cnt + 1, cnt + num + 1):
-            with open(c(PROBLEM + [f"Code{i}.py"]), 'x', encoding='utf-8') as f:
-                t = input(f"输入AC程序{i}(Press 'EOF' to exit)\n")
-                while t != 'EOF':
-                    f.write(t + '\n')
-                    t = input()
-            new_file(c(PROBLEM + [f"Python{i}.md"]))
+    elif cmd == 'h' or cmd == '':
+        print("p: 添加题目")
+        print("q: 退出程序")
+        print("语言拓展名: 添加题解")
+        print("语言拓展名列表：")
+        for i in LANG:
+            print(f"{NAME[i]}: i")
+
     cmd = input(">>> ")
