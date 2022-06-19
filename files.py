@@ -41,9 +41,9 @@ while cmd != 'q':
     if cmd == "p":
         algo = list(map(lambda x: x.strip(), input("算法: ").split()))
         src = list(map(lambda x: x.strip(), input("来源: ").split()))
+        spe = list(map(lambda x: x.strip(), input("特殊题目: ").split()))
         dist = list(map(lambda x: x.strip(), input("地区: ").split()))
         time = list(map(lambda x: x.strip(), input("时间: ").split()))
-        spe = list(map(lambda x: x.strip(), input("特殊题目: ").split()))
         time_limit = input('时间限制(ms): ')
         memory_limit = input('内存限制(MB): ')
 
