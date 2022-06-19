@@ -31,7 +31,7 @@ bank = [BANK[prob[0][0]] if not (
     prob[0][0] == 'U' and prob[0][1] != 'V') else "用户题目"]
 print("难度序号:")
 for i in range(8):
-    print(f"{i}: {CODE[str(i)]}")
+    print(f"\t{i}: {CODE[str(i)]}")
 diff = list(map(lambda x: x.strip(), input("难度(用序号表示): ").split()))
 diff = [CODE[diff[0]]]
 PROBLEM = ["题库", bank[0], diff[0].replace("/", "、"), prob[0]]
@@ -224,6 +224,6 @@ while cmd != 'q':
         print("语言拓展名: 添加题解")
         print("语言拓展名列表：")
         for i in LANG:
-            print(f"{NAME[i]}: {i}")
+            print(f"\t{NAME[i]}: {i}")
 
     cmd = input(">>> ")
