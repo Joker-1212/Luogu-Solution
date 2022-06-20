@@ -10,7 +10,7 @@ else {
 }
 git checkout main
 git merge $prob
-$null = Read-Host "Please reslove automerge conflicts and submit the changes in VSCode, then press Enter key to continue"
+$null = Read-Host "Please reslove conflicts and submit the changes in VSCode, then press Enter key to continue"
 git push github
 git push gitee
 git branch -d $prob
