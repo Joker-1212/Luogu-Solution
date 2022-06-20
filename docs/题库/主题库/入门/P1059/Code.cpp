@@ -8,6 +8,7 @@ int main()
     while (n--)
     {
         scanf("%d", &x);
+        // 没有出现过，标记一下
         if (!bucket[x])
             ++ans, bucket[x] = true;
     }
@@ -15,5 +16,5 @@ int main()
     for (int i = 1; i <= 1000; ++i)
         if (bucket[i])
             printf("%d ", i);
-        return 0;
+    return 0;
 }

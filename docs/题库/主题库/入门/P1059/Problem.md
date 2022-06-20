@@ -1,11 +1,9 @@
-# [P1059[NOIP2006 普及组] 明明的随机数](https://www.luogu.com.cn/problem/P1059)
+# [P1059 [NOIP2006 普及组] 明明的随机数](https://www.luogu.com.cn/problem/P1059)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=2949B4>排序</font>](../../../../算法/排序/index.md)$\quad$[<font color=13C2C2>NOIp普及组</font>](../../../../来源/NOIp普及组/index.md)$\quad$[<font color=3498DB>2006</font>](../../../../时间/2006/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-2006
 
 ## 题目描述
 
