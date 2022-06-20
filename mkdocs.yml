@@ -23,6 +23,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+              - P1089:
+                  - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
       - 模拟:
           - HomePage: "./docs/算法/模拟/index.md"
           - 入门:
@@ -42,6 +45,9 @@ nav:
               - P1059:
                   - Problem: "./题库/主题库/入门/P1059/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1059/C++.md"
+              - P1089:
+                  - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
       - 排序:
           - HomePage: "./算法/排序/index.md"
           - 入门:
@@ -91,6 +97,9 @@ nav:
           - P1046:
               - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
               - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+          - P1089:
+              - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
   - 时间:
       - HomePage: "./docs/时间/index.md"
       - 1999:
@@ -111,6 +120,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+              - P1089:
+                  - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
       - 2005:
           - HomePage: "./docs/时间/2005/index.md"
           - 入门:
@@ -158,6 +170,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+              - P1089:
+                  - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
   - 题库:
       - HomePage: "./题库/index.md"
       - 洛谷主题库:
@@ -193,6 +208,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+              - P1089:
+                  - Problem: "./docs/题库/主题库/入门/P1089/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1089/C++.md"
   - 笔记:
       - HomePage: "./笔记/index.md"
       - 洛谷日报:
