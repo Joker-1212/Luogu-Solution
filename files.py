@@ -103,7 +103,7 @@ while cmd != 'q':
             t = input()[2:]
 
             # write title
-            f.write("# [" + prob[0] + t +
+            f.write("# [" + prob[0] + " " +  t +
                     "](https://www.luogu.com.cn/problem/" + prob[0] + ")\n\n")
 
             # add tags
