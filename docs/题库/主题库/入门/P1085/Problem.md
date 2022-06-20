@@ -1,11 +1,9 @@
-# [P1085[NOIP2004 普及组] 不高兴的津津](https://www.luogu.com.cn/problem/P1085)
+# [P1085 [NOIP2004 普及组] 不高兴的津津](https://www.luogu.com.cn/problem/P1085)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>枚举，暴力</font>](../../../../算法/枚举，暴力/index.md)$\quad$[<font color=13C2C2>NOIp普及组</font>](../../../../来源/NOIp普及组/index.md)$\quad$[<font color=3498DB>2004</font>](../../../../时间/2004/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 128MB***
-
-2004
 
 ## 题目描述
 
