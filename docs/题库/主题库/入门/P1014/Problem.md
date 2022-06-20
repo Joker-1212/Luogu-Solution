@@ -1,4 +1,4 @@
-# [NOIP1999 普及组] Cantor 表
+# [P1014 [NOIP1999 普及组] Cantor 表](https://www.luogu.com.cn/problem/P1014)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=2949B4>枚举，暴力</font>](../../../../算法/枚举，暴力/index.md)$\quad$[<font color=13C2C2>NOIp 普及组</font>](../../../../来源/NOIp普及组/index.md)$\quad$[<font color=3498DB>1999</font>](../../../../时间/1999/index.md)$\quad$**
 
