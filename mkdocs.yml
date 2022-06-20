@@ -20,6 +20,9 @@ nav:
               - P1014:
                   - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+              - P1085:
+                  - Problem: "./题库/主题库/入门/P1085/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1085/C++.md"
       - 模拟:
           - HomePage: "./docs/算法/模拟/index.md"
           - 入门:
@@ -102,6 +105,12 @@ nav:
               - P1035:
                   - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
+      - 2004:
+          - HomePage: "./时间/2004/index.md"
+          - 入门:
+              - P1085:
+                  - Problem: "./题库/主题库/入门/P1085/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1085/C++.md"
       - 2005:
           - HomePage: "./docs/时间/2005/index.md"
           - 入门:
@@ -146,6 +155,9 @@ nav:
               - P1075:
                   - Problem: "/题库/主题库/入门/P1075/Problem.md"
                   - C++题解: "/题库/主题库/入门/P1075/C++.md"
+              - P1085:
+                  - Problem: "./题库/主题库/入门/P1085/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1085/C++.md"
   - 题库:
       - HomePage: "./题库/index.md"
       - 洛谷主题库:
@@ -178,6 +190,9 @@ nav:
               - P1075:
                   - Problem: "/题库/主题库/入门/P1075/Problem.md"
                   - C++题解: "/题库/主题库/入门/P1075/C++.md"
+              - P1085:
+                  - Problem: "./题库/主题库/入门/P1085/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1085/C++.md"
   - 笔记:
       - HomePage: "./笔记/index.md"
       - 洛谷日报:
