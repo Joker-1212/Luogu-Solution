@@ -1,11 +1,9 @@
-# [P1046[NOIP2005 普及组] 陶陶摘苹果](https://www.luogu.com.cn/problem/P1046)
+# [P1046 [NOIP2005 普及组] 陶陶摘苹果](https://www.luogu.com.cn/problem/P1046)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=13C2C2>NOIp普及组</font>](../../../../来源/NOIp普及组/index.md)$\quad$[<font color=3498DB>2005</font>](../../../../时间/2005/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-2005
 
 ## 题目描述
 
