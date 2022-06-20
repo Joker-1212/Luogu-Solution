@@ -1,11 +1,9 @@
-# [P1089[NOIP2004 提高组] 津津的储蓄计划](https://www.luogu.com.cn/problem/P1089)
+# [P1089 [NOIP2004 提高组] 津津的储蓄计划](https://www.luogu.com.cn/problem/P1089)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=2949B4>枚举，暴力</font>](../../../../算法/枚举，暴力/index.md)$\quad$[<font color=13C2C2>NOIp提高组</font>](../../../../来源/NOIp提高组/index.md)$\quad$[<font color=3498DB>2004</font>](../../../../时间/2004/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-2004
 
 ## 题目描述
 
