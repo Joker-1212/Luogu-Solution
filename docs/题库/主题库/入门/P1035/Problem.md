@@ -1,11 +1,9 @@
-# [P1035[NOIP2002 普及组] 级数求和](https://www.luogu.com.cn/problem/P1035)
+# [P1035 [NOIP2002 普及组] 级数求和](https://www.luogu.com.cn/problem/P1035)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>数学</font>](../../../../算法/数学/index.md)$\quad$[<font color=13C2C2>NOIp普及组</font>](../../../../来源/NOIp普及组/index.md)$\quad$[<font color=3498DB>2002</font>](../../../../时间/2002/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-2002
 
 ## 题目描述
 
