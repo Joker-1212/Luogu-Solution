@@ -14,6 +14,12 @@ nav:
   - HomePage: "./index.md"
   - 算法:
       - HomePage: "./算法/index.md"
+      - 枚举，暴力:
+          - HomePage: "./docs/算法/枚举，暴力/index.md"
+          - 入门:
+              - P1014:
+                  - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
       - 模拟:
           - HomePage: "./docs/算法/模拟/index.md"
           - 入门:
@@ -21,6 +27,15 @@ nav:
                   - Problem: "./docs/题库/主题库/入门/P1001/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1001/C++.md"
                   - Python3题解: "./题库/主题库/入门/P1001/Python3.md"
+              - P1014:
+                  - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+      - 数学:
+          - HomePage: "./docs/算法/数学/index.md"
+          - 入门:
+              - P1035:
+                  - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
       - 字符串:
           - HomePage: "./算法/字符串/index.md"
           - 入门:
@@ -40,6 +55,37 @@ nav:
               - Problem: "./docs/题库/主题库/入门/P1001/Problem.md"
               - C++题解: "./docs/题库/主题库/入门/P1001/C++.md"
               - Python3题解: "./题库/主题库/入门/P1001/Python3.md"
+          - P1014:
+              - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+          - P1035:
+              - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
+  - 时间:
+      - HomePage: "./docs/时间/index.md"
+      - 1999:
+          - HomePage: "./docs/时间/1999/index.md"
+          - 入门:
+              - P1014:
+                  - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+      - 2002:
+          - HomePage: "./docs/时间/2002/index.md"
+          - 入门:
+              - P1035:
+                  - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
+  - 来源:
+      - HomePage: "./docs/来源/index.md"
+      - NOIp普及组:
+          - HomePage: "./docs/来源/NOIp普及组/index.md"
+          - 入门:
+              - P1014:
+                  - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+              - P1035:
+                  - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
   - 题库:
       - HomePage: "./题库/index.md"
       - 洛谷主题库:
@@ -54,6 +100,12 @@ nav:
                   - Problem: "./docs/题库/主题库/入门/P1001/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1001/C++.md"
                   - Python3题解: "./docs/题库/主题库/入门/P1001/Python3.md"
+              - P1014:
+                  - Problem: "./docs/题库/主题库/入门/P1014/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1014/C++.md"
+              - P1035:
+                  - Problem: "./docs/题库/主题库/入门/P1035/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1035/C++.md"
   - 笔记:
       - HomePage: "./笔记/index.md"
       - 洛谷日报:
