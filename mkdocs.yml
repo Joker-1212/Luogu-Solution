@@ -1,13 +1,12 @@
 # Project Info
 site_name: Luogu Solution
-site_url: https://luogu-solution.cn
 site_author: Joker_1212
 strict: false
 site_description: Luogu Solution是一个存储我自己的洛谷题解的地方
 
 # Repository
-repo_name: Joker-1212/luogu-solution
-repo_url: https://github.com/Joker-1212/luogu-solution
+repo_name: Joker-1212/OI-Notes
+repo_url: https://github.com/Joker-1212/OI-Notes
 
 # Contents
 nav:
