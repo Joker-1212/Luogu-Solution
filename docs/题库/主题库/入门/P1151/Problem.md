@@ -1,11 +1,9 @@
-# [P1151子数整数](https://www.luogu.com.cn/problem/P1151)
+# [P1151 子数整数](https://www.luogu.com.cn/problem/P1151)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>字符串</font>](../../../../算法/字符串/index.md)$\quad$[<font color=2949B4>搜索</font>](../../../../算法/搜索/index.md)$\quad$[<font color=2949B4>枚举，暴力</font>](../../../../算法/枚举，暴力/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-子数整数
 
 ## 题目描述
 
