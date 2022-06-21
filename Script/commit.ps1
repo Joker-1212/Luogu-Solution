@@ -1,4 +1,4 @@
-Set-Location "E:\OI\Luogu-Solution"
+Set-Location "E:\Programming\OI\OI-Notes"
 $prob = Read-Host "Problem"
 git checkout -b $prob
 python.exe .\files.py $prob

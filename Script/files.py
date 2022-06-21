@@ -3,7 +3,7 @@ import sys
 
 COLOR = {"暂无评定": "BFBFBF", "入门": "FE4C61", "普及-": "F39C11", "普及/提高-": "FFC116", "普及+/提高": "52C41A", "提高+/省选-": "3498DB", "省选/NOI-": "9D3DCF",
          "NOI/NOI+/CTSC": "0E1D69", "Algorithem": "2949B4", "Source": "13C2C2", "Time": "3498DB", "District": "52C41A", "Special": "F39C11"}
-ROOT = ["E:", "OI", "Luogu-Solution", "docs"]
+ROOT = ["E:","Programming", "OI", "OI-Notes", "docs"]
 LANG = ["cpp", "py"]
 NAME = {"cpp": "C++", "py": "Python3"}
 CODE = {'0': "暂无评定", "1": "入门", "2": "普及-", "3": "普及/提高-",
