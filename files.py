@@ -103,7 +103,7 @@ while cmd != 'q':
             t = input()[2:]
 
             # write title
-            f.write("# [" + prob[0] + " " +  t +
+            f.write("# [" + prob[0] + " " + t +
                     "](https://www.luogu.com.cn/problem/" + prob[0] + ")\n\n")
 
             # add tags
@@ -197,9 +197,10 @@ while cmd != 'q':
                             "</font>\n\n来自<font color=13C2C2>" + s + "</font>的题目的题解")
 
     elif cmd in LANG:
-        cnt = len([i for i in os.listdir(c(PROBLEM)) if i.endswith(".cpp")])
+        cnt = len([i for i in os.listdir(c(PROBLEM)) if i.endswith(f".{cmd}")])
         if cnt == 1:
-            os.rename(c(PROBLEM + ['Code.cpp']), c(PROBLEM + ['Code1.cpp']))
+            os.rename(c(PROBLEM + [f'Code.{cmd}']),
+                      c(PROBLEM + [f'Code1.{cmd}']))
             os.rename(c(PROBLEM + ['C++.md']), c(PROBLEM + ['C++1.md']))
         num = int(input("输入" + NAME[cmd] + "题解数量: "))
         if num == 1 and cnt == 0:
@@ -209,6 +210,11 @@ while cmd != 'q':
                     f.write(t + '\n')
                     t = input()
             new_file(c(PROBLEM + [NAME[cmd] + ".md"]))
+            with open(c(PROBLEM + [NAME[cmd] + ".md"]), 'w', encoding='utf-8') as f:
+                f.write(f"# {prob[0]} {NAME[cmd]} 题解\n\n")
+                f.write("## 题意理解\n\n")
+                f.write(f"@import \"Code.{cmd}\"\n\n")
+                f.write("@import \"Problem.md\"")
         else:
             for i in range(cnt + 1, cnt + num + 1):
                 with open(c(PROBLEM + [f"Code{i}.{cmd}"]), 'x', encoding='utf-8') as f:
@@ -217,6 +223,11 @@ while cmd != 'q':
                         f.write(t + '\n')
                         t = input()
                 new_file(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]))
+                with open(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]), 'w', encoding='utf-8') as f:
+                    f.write(f"# {prob[0]} {NAME[cmd]} 题解{i}\n\n")
+                    f.write("## 题意理解\n\n")
+                    f.write(f"@import \"Code{i}.{cmd}\"\n\n")
+                    f.write("@import \"Problem.md\"")
 
     elif cmd == 'h' or cmd == '':
         print("p: 添加题目")
