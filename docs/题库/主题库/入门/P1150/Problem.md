@@ -1,11 +1,9 @@
-# [P1150Peter 的烟](https://www.luogu.com.cn/problem/P1150)
+# [P1150 Peter 的烟](https://www.luogu.com.cn/problem/P1150)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=2949B4>数学</font>](../../../../算法/数学/index.md)**
 
 ***Time Limit: 1000ms***
 ***Memory Limit: 125MB***
-
-Peter 的烟
 
 ## 题目描述
 
