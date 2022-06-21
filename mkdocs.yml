@@ -541,6 +541,9 @@ nav:
               - P1046:
                   - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+              - P1179:
+                  - Problem: "./题库/主题库/入门/P1179/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1179/C++.md"
       - 排序:
           - HomePage: "./算法/排序/index.md"
           - 入门:
@@ -596,6 +599,7 @@ nav:
               - P1151:
                   - Problem: "./题库/主题库/入门/P1151/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1151/C++.md"
+          - 入门:
   - 难度:
       - HomePage: "./难度/index.md"
       - 入门:
@@ -638,6 +642,9 @@ nav:
           - P1046:
               - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
               - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+          - P1179:
+              - Problem: "./题库/主题库/入门/P1179/Problem.md"
+              - C++题解: "./题库/主题库/入门/P1179/C++.md"
   - 时间:
       - HomePage: "./时间/index.md"
       - 1999:
@@ -676,6 +683,12 @@ nav:
               - P1059:
                   - Problem: "./题库/主题库/入门/P1059/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1059/C++.md"
+      - 2010:
+          - HomePage: "./时间/2010/index.md"
+          - 入门:
+              - P1179:
+                  - Problem: "./题库/主题库/入门/P1179/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1179/C++.md"
       - 2012:
           - HomePage: "./时间/2012/index.md"
           - 入门:
@@ -708,6 +721,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+              - P1179:
+                  - Problem: "./题库/主题库/入门/P1179/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1179/C++.md"
       - NOIp提高组:
           - HomePage: "./来源/NOIp提高组/index.md"
           - 入门:
@@ -767,9 +783,9 @@ nav:
               - P1152:
                   - Problem: "./题库/主题库/入门/P1152/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1152/C++.md"
-              - P1046:
-                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
-                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
+              - P1179:
+                  - Problem: "./题库/主题库/入门/P1179/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1179/C++.md"
 
 # Theme
 theme:
