@@ -229,6 +229,470 @@ nav:
           - HomePage: "./笔记/洛谷日报/index.md"
       - 题解:
           - HomePage: "./笔记/题解/index.md"
+  - OI-Wiki:
+      - 简介:
+          - Getting Started: ./OI-wiki/index.md
+          - 关于本项目: ./OI-wiki/intro/about.md
+          - 如何参与: ./OI-wiki/intro/htc.md
+          - 格式手册: ./OI-wiki/intro/format.md
+          - F.A.Q.: ./OI-wiki/intro/faq.md
+          - 用 Docker 部署 OI Wiki: ./OI-wiki/intro/docker-deploy.md
+          - 镜像站列表: ./OI-wiki/intro/mirrors.md
+          - 致谢: ./OI-wiki/intro/thanks.md
+      - 比赛相关:
+          - 比赛相关简介: ./OI-wiki/contest/index.md
+          - 赛事:
+              - OI 赛事与赛制: ./OI-wiki/contest/oi.md
+              - ICPC/CCPC 赛事与赛制: ./OI-wiki/contest/icpc.md
+          - 题型:
+              - 题型概述: ./OI-wiki/contest/problems.md
+              - 交互题: ./OI-wiki/contest/interaction.md
+          - 学习路线: ./OI-wiki/contest/roadmap.md
+          - 学习资源: ./OI-wiki/contest/resources.md
+          - 技巧:
+              - 读入、输出优化: ./OI-wiki/contest/io.md
+              - 常见错误: ./OI-wiki/contest/common-mistakes.md
+              - 常见技巧: ./OI-wiki/contest/common-tricks.md
+          - 出题: ./OI-wiki/contest/problemsetting.md
+      - 工具软件:
+          - 工具软件简介: ./OI-wiki/tools/index.md
+          - 代码编辑工具:
+              - Vim: ./OI-wiki/tools/editor/vim.md
+              - Emacs: ./OI-wiki/tools/editor/emacs.md
+              - VS Code: ./OI-wiki/tools/editor/vscode.md
+              - Atom: ./OI-wiki/tools/editor/atom.md
+              - Eclipse: ./OI-wiki/tools/editor/eclipse.md
+              - Notepad++: ./OI-wiki/tools/editor/npp.md
+              - Kate: ./OI-wiki/tools/editor/kate.md
+              - Dev-C++: ./OI-wiki/tools/editor/devcpp.md
+              - Geany: ./OI-wiki/tools/editor/geany.md
+              - Xcode: ./OI-wiki/tools/editor/xcode.md
+              - GUIDE: ./OI-wiki/tools/editor/guide.md
+              - Sublime Text: ./OI-wiki/tools/editor/sublime.md
+          - 评测工具:
+              - 评测工具简介: ./OI-wiki/tools/judger/index.md
+              - Arbiter: ./OI-wiki/tools/judger/arbiter.md
+              - Cena: ./OI-wiki/tools/judger/cena.md
+              - CCR Plus: ./OI-wiki/tools/judger/ccr-plus.md
+              - Lemon: ./OI-wiki/tools/judger/lemon.md
+          - 命令行: ./OI-wiki/tools/cmd.md
+          - WSL (Windows 10): ./OI-wiki/tools/wsl.md
+          - Special Judge: ./OI-wiki/tools/special-judge.md
+          - Testlib:
+              - Testlib 简介: ./OI-wiki/tools/testlib/index.md
+              - 通用: ./OI-wiki/tools/testlib/general.md
+              - Generator: ./OI-wiki/tools/testlib/generator.md
+              - Validator: ./OI-wiki/tools/testlib/validator.md
+              - Interactor: ./OI-wiki/tools/testlib/interactor.md
+              - Checker: ./OI-wiki/tools/testlib/checker.md
+          - Polygon: ./OI-wiki/tools/polygon.md
+          - OJ 工具: ./OI-wiki/tools/oj-tool.md
+          - LaTeX 入门: ./OI-wiki/tools/latex.md
+          - Git: ./OI-wiki/tools/git.md
+      - 语言基础:
+          - 语言基础简介: ./OI-wiki/lang/index.md
+          - C++ 基础:
+              - Hello, World!: ./OI-wiki/lang/helloworld.md
+              - C++ 语法基础: ./OI-wiki/lang/basic.md
+              - 变量: ./OI-wiki/lang/var.md
+              - 运算: ./OI-wiki/lang/op.md
+              - 流程控制语句:
+                  - 分支: ./OI-wiki/lang/branch.md
+                  - 循环: ./OI-wiki/lang/loop.md
+              - 高级数据类型:
+                  - 数组: ./OI-wiki/lang/array.md
+                  - 结构体: ./OI-wiki/lang/struct.md
+                  - 指针: ./OI-wiki/lang/pointer.md
+              - 函数: ./OI-wiki/lang/func.md
+              - 文件操作: ./OI-wiki/lang/file-op.md
+          - C++ 标准库:
+              - C++ 标准库简介: ./OI-wiki/lang/csl/index.md
+              - STL 容器:
+                  - STL 容器简介: ./OI-wiki/lang/csl/container.md
+                  - 迭代器: ./OI-wiki/lang/csl/iterator.md
+                  - 序列式容器: ./OI-wiki/lang/csl/sequence-container.md
+                  - 关联式容器: ./OI-wiki/lang/csl/associative-container.md
+                  - 无序关联式容器: ./OI-wiki/lang/csl/unordered-container.md
+                  - 容器适配器: ./OI-wiki/lang/csl/container-adapter.md
+              - STL 算法: ./OI-wiki/lang/csl/algorithm.md
+              - bitset: ./OI-wiki/lang/csl/bitset.md
+              - string: ./OI-wiki/lang/csl/string.md
+              - pair: ./OI-wiki/lang/csl/pair.md
+          - C++ 进阶:
+              - 类: ./OI-wiki/lang/class.md
+              - 命名空间: ./OI-wiki/lang/namespace.md
+              - 值类别: ./OI-wiki/lang/value-category.md
+              - 重载运算符: ./OI-wiki/lang/op-overload.md
+              - 引用: ./OI-wiki/lang/reference.md
+              - 常值: ./OI-wiki/lang/const.md
+              - 新版 C++ 特性: ./OI-wiki/lang/new.md
+              - pb_ds:
+                  - pb_ds 简介: ./OI-wiki/lang/pb-./OI-wiki/ds/index.md
+                  - 堆: ./OI-wiki/lang/pb-./OI-wiki/ds/pq.md
+                  - 平衡树: ./OI-wiki/lang/pb-./OI-wiki/ds/tree.md
+          - C 与 C++ 区别: ./OI-wiki/lang/c-cpp.md
+          - Pascal 转 C++ 急救: ./OI-wiki/lang/pas-cpp.md
+          - Python 速成: ./OI-wiki/lang/python.md
+          - Java 速成: ./OI-wiki/lang/java.md
+      - 算法基础:
+          - 算法基础简介: ./OI-wiki/basic/index.md
+          - 复杂度: ./OI-wiki/basic/complexity.md
+          - 枚举: ./OI-wiki/basic/enumerate.md
+          - 模拟: ./OI-wiki/basic/simulate.md
+          - 递归 & 分治: ./OI-wiki/basic/divide-and-conquer.md
+          - 贪心: ./OI-wiki/basic/greedy.md
+          - 排序:
+              - 排序简介: ./OI-wiki/basic/sort-intro.md
+              - 选择排序: ./OI-wiki/basic/selection-sort.md
+              - 冒泡排序: ./OI-wiki/basic/bubble-sort.md
+              - 插入排序: ./OI-wiki/basic/insertion-sort.md
+              - 计数排序: ./OI-wiki/basic/counting-sort.md
+              - 基数排序: ./OI-wiki/basic/radix-sort.md
+              - 快速排序: ./OI-wiki/basic/quick-sort.md
+              - 归并排序: ./OI-wiki/basic/merge-sort.md
+              - 堆排序: ./OI-wiki/basic/heap-sort.md
+              - 桶排序: ./OI-wiki/basic/bucket-sort.md
+              - 希尔排序: ./OI-wiki/basic/shell-sort.md
+              - 锦标赛排序: ./OI-wiki/basic/tournament-sort.md
+              - 排序相关 STL: ./OI-wiki/basic/stl-sort.md
+              - 排序应用: ./OI-wiki/basic/use-of-sort.md
+          - 前缀和 & 差分: ./OI-wiki/basic/prefix-sum.md
+          - 二分: ./OI-wiki/basic/binary.md
+          - 倍增: ./OI-wiki/basic/binary-lifting.md
+          - 构造: ./OI-wiki/basic/construction.md
+      - 搜索:
+          - 搜索部分简介: ./OI-wiki/search/index.md
+          - DFS（搜索）: ./OI-wiki/search/dfs.md
+          - BFS（搜索）: ./OI-wiki/search/bfs.md
+          - 双向搜索: ./OI-wiki/search/bidirectional.md
+          - 启发式搜索: ./OI-wiki/search/heuristic.md
+          - A*: ./OI-wiki/search/astar.md
+          - 迭代加深搜索: ./OI-wiki/search/iterative.md
+          - IDA*: ./OI-wiki/search/idastar.md
+          - 回溯法: ./OI-wiki/search/backtracking.md
+          - Dancing Links: ./OI-wiki/search/dlx.md
+          - Alpha-Beta 剪枝: ./OI-wiki/search/alpha-beta.md
+          - 优化: ./OI-wiki/search/opt.md
+      - 动态规划:
+          - 动态规划部分简介: ./OI-wiki/dp/index.md
+          - 动态规划基础: ./OI-wiki/dp/basic.md
+          - 记忆化搜索: ./OI-wiki/dp/memo.md
+          - 背包 DP: ./OI-wiki/dp/knapsack.md
+          - 区间 DP: ./OI-wiki/dp/interval.md
+          - DAG 上的 DP: ./OI-wiki/dp/dag.md
+          - 树形 DP: ./OI-wiki/dp/tree.md
+          - 状压 DP: ./OI-wiki/dp/state.md
+          - 数位 DP: ./OI-wiki/dp/number.md
+          - 插头 DP: ./OI-wiki/dp/plug.md
+          - 计数 DP: ./OI-wiki/dp/count.md
+          - 动态 DP: ./OI-wiki/dp/dynamic.md
+          - 概率 DP: ./OI-wiki/dp/probability.md
+          - DP 优化:
+              - 单调队列/单调栈优化: ./OI-wiki/dp/opt/monotonous-queue-stack.md
+              - 斜率优化: ./OI-wiki/dp/opt/slope.md
+              - 四边形不等式优化: ./OI-wiki/dp/opt/quadrangle.md
+              - 状态设计优化: ./OI-wiki/dp/opt/state.md
+          - 其它 DP 方法: ./OI-wiki/dp/misc.md
+      - 字符串:
+          - 字符串部分简介: ./OI-wiki/string/index.md
+          - 字符串基础: ./OI-wiki/string/basic.md
+          - 标准库: ./OI-wiki/string/lib-func.md
+          - 字符串匹配: ./OI-wiki/string/match.md
+          - 字符串哈希: ./OI-wiki/string/hash.md
+          - 字典树 (Trie): ./OI-wiki/string/trie.md
+          - 前缀函数与 KMP 算法: ./OI-wiki/string/kmp.md
+          - Boyer-Moore 算法: ./OI-wiki/string/bm.md
+          - Z 函数（扩展 KMP）: ./OI-wiki/string/z-func.md
+          - 自动机: ./OI-wiki/string/automaton.md
+          - AC 自动机: ./OI-wiki/string/ac-automaton.md
+          - 后缀数组 (SA):
+              - 后缀数组简介: ./OI-wiki/string/sa.md
+              - 最优原地后缀排序算法: ./OI-wiki/string/sa-optimal-inplace.md
+          - 后缀自动机 (SAM): ./OI-wiki/string/sam.md
+          - 后缀平衡树: ./OI-wiki/string/suffix-bst.md
+          - 广义后缀自动机: ./OI-wiki/string/general-sam.md
+          - 后缀树: ./OI-wiki/string/suffix-tree.md
+          - Manacher: ./OI-wiki/string/manacher.md
+          - 回文树: ./OI-wiki/string/pam.md
+          - 序列自动机: ./OI-wiki/string/seq-automaton.md
+          - 最小表示法: ./OI-wiki/string/minimal-string.md
+          - Lyndon 分解: ./OI-wiki/string/lyndon.md
+          - Main-Lorentz 算法: ./OI-wiki/string/main-lorentz.md
+      - 数学:
+          - 数学部分简介: ./OI-wiki/math/index.md
+          - 符号: ./OI-wiki/math/notation.md
+          - 复数: ./OI-wiki/math/complex.md
+          - 位运算: ./OI-wiki/math/bit.md
+          - 快速幂: ./OI-wiki/math/quick-pow.md
+          - 进位制: ./OI-wiki/math/base.md
+          - 高精度计算: ./OI-wiki/math/bignum.md
+          - 平衡三进制: ./OI-wiki/math/balanced-ternary.md
+          - 数论:
+              - 数论基础: ./OI-wiki/math/number-theory/basic.md
+              - 素数: ./OI-wiki/math/number-theory/prime.md
+              - 最大公约数: ./OI-wiki/math/number-theory/gcd.md
+              - 数论分块: ./OI-wiki/math/number-theory/sqrt-decomposition.md
+              - 欧拉函数: ./OI-wiki/math/number-theory/euler.md
+              - 筛法: ./OI-wiki/math/number-theory/sieve.md
+              - Meissel-Lehmer 算法: ./OI-wiki/math/number-theory/meissel-lehmer.md
+              - 分解质因数: ./OI-wiki/math/number-theory/pollard-rho.md
+              - 裴蜀定理: ./OI-wiki/math/number-theory/bezouts.md
+              - 类欧几里德算法: ./OI-wiki/math/number-theory/euclidean.md
+              - 欧拉定理 & 费马小定理: ./OI-wiki/math/number-theory/fermat.md
+              - 乘法逆元: ./OI-wiki/math/number-theory/inverse.md
+              - 线性同余方程: ./OI-wiki/math/number-theory/linear-equation.md
+              - 中国剩余定理: ./OI-wiki/math/number-theory/crt.md
+              - 威尔逊定理: ./OI-wiki/math/number-theory/wilson.md
+              - 升幂定理: ./OI-wiki/math/number-theory/lift-the-exponent.md
+              - 卢卡斯定理: ./OI-wiki/math/number-theory/lucas.md
+              - 二次剩余: ./OI-wiki/math/number-theory/quad-residue.md
+              - 拉格朗日定理: ./OI-wiki/math/number-theory/lagrange.md
+              - 原根: ./OI-wiki/math/number-theory/primitive-root.md
+              - BSGS: ./OI-wiki/math/number-theory/bsgs.md
+              - 莫比乌斯反演: ./OI-wiki/math/number-theory/mobius.md
+              - 杜教筛: ./OI-wiki/math/number-theory/du.md
+              - Powerful Number 筛: ./OI-wiki/math/number-theory/powerful-number.md
+              - Min_25 筛: ./OI-wiki/math/number-theory/min-25.md
+              - 洲阁筛: ./OI-wiki/math/number-theory/zhou.md
+              - 连分数: ./OI-wiki/math/number-theory/continued-fraction.md
+              - Stern-Brocot 树与 Farey 序列: ./OI-wiki/math/number-theory/stern-brocot.md
+              - Pell 方程: ./OI-wiki/math/number-theory/pell-equation.md
+          - 多项式:
+              - 多项式部分简介: ./OI-wiki/math/poly/intro.md
+              - 拉格朗日插值: ./OI-wiki/math/poly/lagrange.md
+              - 快速傅里叶变换: ./OI-wiki/math/poly/fft.md
+              - 快速数论变换: ./OI-wiki/math/poly/ntt.md
+              - 快速沃尔什变换: ./OI-wiki/math/poly/fwt.md
+              - Chirp Z 变换: ./OI-wiki/math/poly/czt.md
+              - 多项式求逆: ./OI-wiki/math/poly/inv.md
+              - 多项式开方: ./OI-wiki/math/poly/sqrt.md
+              - 多项式除法|取模: ./OI-wiki/math/poly/div-mod.md
+              - 多项式对数函数|指数函数: ./OI-wiki/math/poly/ln-exp.md
+              - 多项式牛顿迭代: ./OI-wiki/math/poly/newton.md
+              - 多项式多点求值|快速插值: ./OI-wiki/math/poly/multipoint-eval-interpolation.md
+              - 多项式三角函数: ./OI-wiki/math/poly/tri-func.md
+              - 多项式反三角函数: ./OI-wiki/math/poly/inv-tri-func.md
+              - 常系数齐次线性递推: ./OI-wiki/math/linear-recurrence.md
+              - 多项式平移|连续点值平移: ./OI-wiki/math/poly/shift.md
+          - 生成函数:
+              - 生成函数简介: ./OI-wiki/math/gen-func/intro.md
+              - 符号化方法: ./OI-wiki/math/gen-func/symbolic-method.md
+              - 普通生成函数: ./OI-wiki/math/gen-func/ogf.md
+              - 指数生成函数: ./OI-wiki/math/gen-func/egf.md
+              - 狄利克雷生成函数: ./OI-wiki/math/gen-func/dgf.md
+          - 线性代数:
+              - 向量: ./OI-wiki/math/vector.md
+              - 矩阵: ./OI-wiki/math/matrix.md
+              - 高斯消元: ./OI-wiki/math/gauss.md
+              - 特征多项式: ./OI-wiki/math/char-poly.md
+              - 线性基: ./OI-wiki/math/basis.md
+          - 线性规划:
+              - 线性规划简介: ./OI-wiki/math/linear-programming.md
+              - 单纯形算法: ./OI-wiki/math/simplex.md
+          - 组合数学:
+              - 排列组合: ./OI-wiki/math/combinatorics/combination.md
+              - 卡特兰数: ./OI-wiki/math/combinatorics/catalan.md
+              - 斯特林数: ./OI-wiki/math/combinatorics/stirling.md
+              - 贝尔数: ./OI-wiki/math/combinatorics/bell.md
+              - 伯努利数: ./OI-wiki/math/combinatorics/bernoulli.md
+              - 康托展开: ./OI-wiki/math/combinatorics/cantor.md
+              - 容斥原理: ./OI-wiki/math/combinatorics/inclusion-exclusion-principle.md
+              - 抽屉原理: ./OI-wiki/math/combinatorics/drawer-principle.md
+              - Eulerian Number: ./OI-wiki/math/combinatorics/eulerian.md
+              - 分拆数: ./OI-wiki/math/combinatorics/partition.md
+          - 群论:
+              - 群论简介: ./OI-wiki/math/group-theory.md
+              - 置换群: ./OI-wiki/math/permutation-group.md
+          - 概率初步: ./OI-wiki/math/expectation.md
+          - 斐波那契数列: ./OI-wiki/math/fibonacci.md
+          - 博弈论:
+              - 博弈论简介: ./OI-wiki/math/game-theory/intro.md
+              - 公平组合游戏: ./OI-wiki/math/game-theory/impartial-game.md
+              - 非公平组合游戏: ./OI-wiki/math/game-theory/partizan-game.md
+              - 反常游戏: ./OI-wiki/math/game-theory/misere-game.md
+          - 牛顿迭代法: ./OI-wiki/math/newton.md
+          - 数值积分: ./OI-wiki/math/integral.md
+          - 分段打表: ./OI-wiki/math/dictionary.md
+          - 傅里叶-莫茨金消元法: ./OI-wiki/math/fourier-motzkin-elimination.md
+          - 序理论: ./OI-wiki/math/order-theory.md
+          - 杨氏矩阵: ./OI-wiki/math/young-tableau.md
+          - Schreier–Sims 算法: ./OI-wiki/math/schreier-sims.md
+          - Berlekamp-Massey 算法: ./OI-wiki/math/berlekamp-massey.md
+      - 数据结构:
+          - 数据结构部分简介: ./OI-wiki/ds/index.md
+          - 栈: ./OI-wiki/ds/stack.md
+          - 队列: ./OI-wiki/ds/queue.md
+          - 链表: ./OI-wiki/ds/linked-list.md
+          - 哈希表: ./OI-wiki/ds/hash.md
+          - 并查集:
+              - 并查集: ./OI-wiki/ds/dsu.md
+              - 并查集复杂度: ./OI-wiki/ds/dsu-complexity.md
+          - 堆:
+              - 堆简介: ./OI-wiki/ds/heap.md
+              - 二叉堆: ./OI-wiki/ds/binary-heap.md
+              - 配对堆: ./OI-wiki/ds/pairing-heap.md
+              - 左偏树: ./OI-wiki/ds/leftist-tree.md
+          - 块状数据结构:
+              - 分块思想: ./OI-wiki/ds/decompose.md
+              - 块状数组: ./OI-wiki/ds/block-array.md
+              - 块状链表: ./OI-wiki/ds/block-list.md
+              - 树分块: ./OI-wiki/ds/tree-decompose.md
+              - Sqrt Tree: ./OI-wiki/ds/sqrt-tree.md
+          - 单调栈: ./OI-wiki/ds/monotonous-stack.md
+          - 单调队列: ./OI-wiki/ds/monotonous-queue.md
+          - ST 表: ./OI-wiki/ds/sparse-table.md
+          - 树状数组: ./OI-wiki/ds/fenwick.md
+          - 线段树: ./OI-wiki/ds/seg.md
+          - 李超线段树: ./OI-wiki/ds/li-chao-tree.md
+          - 区间最值操作 & 区间历史最值: ./OI-wiki/ds/seg-beats.md
+          - 划分树: ./OI-wiki/ds/dividing.md
+          - 二叉搜索树 & 平衡树:
+              - 二叉搜索树简介: ./OI-wiki/ds/bst.md
+              - Treap: ./OI-wiki/ds/treap.md
+              - Splay: ./OI-wiki/ds/splay.md
+              - WBLT: ./OI-wiki/ds/wblt.md
+              - Size Balanced Tree: ./OI-wiki/ds/sbt.md
+              - AVL 树: ./OI-wiki/ds/avl.md
+              - 替罪羊树: ./OI-wiki/ds/sgt.md
+              - 笛卡尔树: ./OI-wiki/ds/cartesian-tree.md
+              - 左偏红黑树: ./OI-wiki/ds/llrbt.md
+          - 跳表: ./OI-wiki/ds/skiplist.md
+          - 可持久化数据结构:
+              - 可持久化数据结构简介: ./OI-wiki/ds/persistent.md
+              - 可持久化线段树: ./OI-wiki/ds/persistent-seg.md
+              - 可持久化块状数组: ./OI-wiki/ds/persistent-block-array.md
+              - 可持久化平衡树: ./OI-wiki/ds/persistent-balanced.md
+              - 可持久化字典树: ./OI-wiki/ds/persistent-trie.md
+              - 可持久化可并堆: ./OI-wiki/ds/persistent-heap.md
+          - 树套树:
+              - 线段树套线段树: ./OI-wiki/ds/seg-in-seg.md
+              - 平衡树套线段树: ./OI-wiki/ds/seg-in-balanced.md
+              - 线段树套平衡树: ./OI-wiki/ds/balanced-in-seg.md
+              - 树状数组套主席树: ./OI-wiki/ds/persistent-in-bit.md
+              - 分块套树状数组: ./OI-wiki/ds/bit-in-block-array.md
+          - K-D Tree: ./OI-wiki/ds/kdt.md
+          - 珂朵莉树: ./OI-wiki/ds/odt.md
+          - 动态树:
+              - Link Cut Tree: ./OI-wiki/ds/lct.md
+              - Euler Tour Tree: ./OI-wiki/ds/ett.md
+              - Top Tree: ./OI-wiki/ds/top-tree.md
+          - 析合树: ./OI-wiki/ds/divide-combine.md
+          - PQ 树: ./OI-wiki/ds/pq-tree.md
+          - 手指树: ./OI-wiki/ds/finger-tree.md
+          - 霍夫曼树: ./OI-wiki/ds/huffman-tree.md
+      - 图论:
+          - 图论部分简介: ./OI-wiki/graph/index.md
+          - 图论相关概念: ./OI-wiki/graph/concept.md
+          - 图的存储: ./OI-wiki/graph/save.md
+          - DFS（图论）: ./OI-wiki/graph/dfs.md
+          - BFS（图论）: ./OI-wiki/graph/bfs.md
+          - 树上问题:
+              - 树基础: ./OI-wiki/graph/tree-basic.md
+              - 树的直径: ./OI-wiki/graph/tree-diameter.md
+              - 最近公共祖先: ./OI-wiki/graph/lca.md
+              - 树的重心: ./OI-wiki/graph/tree-centroid.md
+              - 树链剖分: ./OI-wiki/graph/hld.md
+              - 树上启发式合并: ./OI-wiki/graph/dsu-on-tree.md
+              - 虚树: ./OI-wiki/graph/virtual-tree.md
+              - 树分治: ./OI-wiki/graph/tree-divide.md
+              - 动态树分治: ./OI-wiki/graph/dynamic-tree-divide.md
+              - AHU 算法: ./OI-wiki/graph/tree-ahu.md
+              - 树哈希: ./OI-wiki/graph/tree-hash.md
+          - 矩阵树定理: ./OI-wiki/graph/matrix-tree.md
+          - 有向无环图: ./OI-wiki/graph/dag.md
+          - 拓扑排序: ./OI-wiki/graph/topo.md
+          - 最小生成树: ./OI-wiki/graph/mst.md
+          - 斯坦纳树: ./OI-wiki/graph/steiner-tree.md
+          - 最小树形图: ./OI-wiki/graph/dmst.md
+          - 最小直径生成树: ./OI-wiki/graph/mdst.md
+          - 最短路: ./OI-wiki/graph/shortest-path.md
+          - 拆点: ./OI-wiki/graph/node.md
+          - 差分约束: ./OI-wiki/graph/diff-constraints.md
+          - k 短路: ./OI-wiki/graph/kth-path.md
+          - 同余最短路: ./OI-wiki/graph/mod-shortest-path.md
+          - 连通性相关:
+              - 强连通分量: ./OI-wiki/graph/scc.md
+              - 双连通分量: ./OI-wiki/graph/bcc.md
+              - 割点和桥: ./OI-wiki/graph/cut.md
+              - 圆方树: ./OI-wiki/graph/block-forest.md
+          - 2-SAT: ./OI-wiki/graph/2-sat.md
+          - 欧拉图: ./OI-wiki/graph/euler.md
+          - 哈密顿图: ./OI-wiki/graph/hamilton.md
+          - 二分图: ./OI-wiki/graph/bi-graph.md
+          - 最小环: ./OI-wiki/graph/min-circle.md
+          - 平面图: ./OI-wiki/graph/planar.md
+          - 图的着色: ./OI-wiki/graph/color.md
+          - 网络流:
+              - 网络流简介: ./OI-wiki/graph/flow.md
+              - 最大流: ./OI-wiki/graph/flow/max-flow.md
+              - 最小割: ./OI-wiki/graph/flow/min-cut.md
+              - 费用流: ./OI-wiki/graph/flow/min-cost.md
+              - 上下界网络流: ./OI-wiki/graph/flow/bound.md
+          - Stoer-Wagner 算法: ./OI-wiki/graph/stoer-wagner.md
+          - 图的匹配:
+              - 图匹配: ./OI-wiki/graph/graph-matching/graph-match.md
+              - 增广路: ./OI-wiki/graph/graph-matching/augment.md
+              - 二分图最大匹配: ./OI-wiki/graph/graph-matching/bigraph-match.md
+              - 二分图最大权匹配: ./OI-wiki/graph/graph-matching/bigraph-weight-match.md
+              - 一般图最大匹配: ./OI-wiki/graph/graph-matching/general-match.md
+              - 一般图最大权匹配: ./OI-wiki/graph/graph-matching/general-weight-match.md
+          - Prufer 序列: ./OI-wiki/graph/prufer.md
+          - LGV 引理: ./OI-wiki/graph/lgv.md
+          - 弦图: ./OI-wiki/graph/chord.md
+      - 计算几何:
+          - 计算几何部分简介: ./OI-wiki/geometry/index.md
+          - 二维计算几何基础: ./OI-wiki/geometry/2d.md
+          - 三维计算几何基础: ./OI-wiki/geometry/3d.md
+          - 极坐标系: ./OI-wiki/geometry/polar-coordinate.md
+          - 距离: ./OI-wiki/geometry/distance.md
+          - Pick 定理: ./OI-wiki/geometry/pick.md
+          - 三角剖分: ./OI-wiki/geometry/triangulation.md
+          - 凸包: ./OI-wiki/geometry/convex-hull.md
+          - 扫描线: ./OI-wiki/geometry/scanning.md
+          - 旋转卡壳: ./OI-wiki/geometry/rotating-calipers.md
+          - 半平面交: ./OI-wiki/geometry/half-plane.md
+          - 平面最近点对: ./OI-wiki/geometry/nearest-points.md
+          - 随机增量法: ./OI-wiki/geometry/random-incremental.md
+          - 反演变换: ./OI-wiki/geometry/inverse.md
+          - 计算几何杂项: ./OI-wiki/geometry/misc.md
+      - 杂项:
+          - 杂项简介: ./OI-wiki/misc/index.md
+          - 离散化: ./OI-wiki/misc/discrete.md
+          - 双指针: ./OI-wiki/misc/two-pointer.md
+          - 离线算法:
+              - 离线算法简介: ./OI-wiki/misc/offline.md
+              - CDQ 分治: ./OI-wiki/misc/cdq-divide.md
+              - 整体二分: ./OI-wiki/misc/parallel-binsearch.md
+              - 莫队算法:
+                  - 莫队算法简介: ./OI-wiki/misc/mo-algo-intro.md
+                  - 普通莫队算法: ./OI-wiki/misc/mo-algo.md
+                  - 带修改莫队: ./OI-wiki/misc/modifiable-mo-algo.md
+                  - 树上莫队: ./OI-wiki/misc/mo-algo-on-tree.md
+                  - 回滚莫队: ./OI-wiki/misc/rollback-mo-algo.md
+                  - 莫队配合 bitset: ./OI-wiki/misc/mo-algo-with-bitset.md
+          - 分数规划: ./OI-wiki/misc/frac-programming.md
+          - 随机化:
+              - 随机函数: ./OI-wiki/misc/random.md
+              - 随机化技巧: ./OI-wiki/misc/rand-technique.md
+              - 爬山算法: ./OI-wiki/misc/hill-climbing.md
+              - 模拟退火: ./OI-wiki/misc/simulated-annealing.md
+          - 悬线法: ./OI-wiki/misc/hoverline.md
+          - 计算理论基础: ./OI-wiki/misc/cc-basic.md
+          - 字节顺序: ./OI-wiki/misc/endianness.md
+          - 约瑟夫问题: ./OI-wiki/misc/josephus.md
+          - 格雷码: ./OI-wiki/misc/gray-code.md
+          - 表达式求值: ./OI-wiki/misc/expression.md
+          - 在一台机器上规划任务: ./OI-wiki/misc/job-order.md
+          - 主元素问题: ./OI-wiki/misc/main-element.md
+          - Garsia-Wachs 算法: ./OI-wiki/misc/garsia-wachs.md
+          - 15-puzzle: ./OI-wiki/misc/15-puzzle.md
+          - Kahan 求和: ./OI-wiki/misc/kahan-summation.md
+      - 专题:
+          - RMQ: ./OI-wiki/topic/rmq.md
+          - 并查集应用: ./OI-wiki/topic/dsu-app.md
+          - 括号序列: ./OI-wiki/topic/bracket.md
+      - 关于 Hulu:
+          - 关于 Hulu: ./OI-wiki/intro/hulu.md
 
 # Theme
 theme:
