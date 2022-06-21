@@ -67,14 +67,14 @@ nav:
                   - Problem: "./题库/主题库/入门/P1035/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1035/C++.md"
               - P1075:
-                  - Problem: "/题库/主题库/入门/P1075/Problem.md"
-                  - C++题解: "/题库/主题库/入门/P1075/C++.md"
+                  - Problem: "./题库/主题库/入门/P1075/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1075/C++.md"
       - 素数判断，质数，筛法:
-          - HomePage: "/算法/素数判断，质数，筛法/index.md"
+          - HomePage: "./算法/素数判断，质数，筛法/index.md"
           - 入门:
               - P1075:
-                  - Problem: "/题库/主题库/入门/P1075/Problem.md"
-                  - C++题解: "/题库/主题库/入门/P1075/C++.md"
+                  - Problem: "./题库/主题库/入门/P1075/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1075/C++.md"
       - 字符串:
           - HomePage: "./算法/字符串/index.md"
           - 入门:
@@ -148,11 +148,11 @@ nav:
                   - Problem: "./题库/主题库/入门/P1059/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1059/C++.md"
       - 2012:
-          - HomePage: "/时间/2012/index.md"
+          - HomePage: "./时间/2012/index.md"
           - 入门:
               - P1075:
-                  - Problem: "/题库/主题库/入门/P1075/Problem.md"
-                  - C++题解: "/题库/主题库/入门/P1075/C++.md"
+                  - Problem: "./题库/主题库/入门/P1075/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1075/C++.md"
   - 来源:
       - HomePage: "./来源/index.md"
       - NOIp普及组:
@@ -174,8 +174,8 @@ nav:
                   - Problem: "./题库/主题库/入门/P1059/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1059/C++.md"
               - P1075:
-                  - Problem: "/题库/主题库/入门/P1075/Problem.md"
-                  - C++题解: "/题库/主题库/入门/P1075/C++.md"
+                  - Problem: "./题库/主题库/入门/P1075/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1075/C++.md"
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
@@ -212,8 +212,8 @@ nav:
                   - Problem: "./题库/主题库/入门/P1059/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1059/C++.md"
               - P1075:
-                  - Problem: "/题库/主题库/入门/P1075/Problem.md"
-                  - C++题解: "/题库/主题库/入门/P1075/C++.md"
+                  - Problem: "./题库/主题库/入门/P1075/Problem.md"
+                  - C++题解: "./题库/主题库/入门/P1075/C++.md"
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
