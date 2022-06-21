@@ -657,6 +657,9 @@ nav:
               - P1085:
                   - Problem: "./题库/主题库/入门/P1085/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1085/C++.md"
+      - NOIp提高组:
+          - HomePage: "./来源/NOIp提高组/index.md"
+          - 入门:
               - P1089:
                   - Problem: "./题库/主题库/入门/P1089/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1089/C++.md"
