@@ -574,6 +574,9 @@ nav:
               - P1150:
                   - Problem: "./题库/主题库/入门/P1150/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1150/C++.md"
+              - P1200:
+                  - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
       - 搜索:
           - HomePage: "./算法/搜索/index.md"
           - 入门:
@@ -599,6 +602,9 @@ nav:
               - P1151:
                   - Problem: "./题库/主题库/入门/P1151/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1151/C++.md"
+              - P1200:
+                  - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
           - 入门:
   - 难度:
       - HomePage: "./难度/index.md"
@@ -645,6 +651,9 @@ nav:
           - P1179:
               - Problem: "./题库/主题库/入门/P1179/Problem.md"
               - C++题解: "./题库/主题库/入门/P1179/C++.md"
+          - P1200:
+              - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
   - 时间:
       - HomePage: "./时间/index.md"
       - 1999:
@@ -730,6 +739,12 @@ nav:
               - P1089:
                   - Problem: "./题库/主题库/入门/P1089/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1089/C++.md"
+      - USACO:
+          - HomePage: "./docs/来源/USACO/index.md"
+          - 入门:
+              - P1200:
+                  - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
   - 题库:
       - HomePage: "./题库/index.md"
       - 洛谷主题库:
@@ -786,6 +801,9 @@ nav:
               - P1179:
                   - Problem: "./题库/主题库/入门/P1179/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1179/C++.md"
+              - P1200:
+                  - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
 
 # Theme
 theme:
