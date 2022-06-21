@@ -20,12 +20,6 @@ def new(path):
         os.makedirs(path)
 
 
-def new_file(path):
-    if not os.path.exists(path):
-        f = open(path, 'x')
-        f.close()
-
-
 prob = sys.argv[1:]
 bank = [BANK[prob[0][0]] if not (
     prob[0][0] == 'U' and prob[0][1] != 'V') else "用户题目"]
@@ -64,39 +58,6 @@ while cmd != 'q':
         if src:
             for s in src:
                 new(c(["来源"] + [s]))
-
-        new_file(c(["题库"] + ["index.md"]))
-        new_file(c(["题库"] + bank + ["index.md"]))
-        new_file(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"]))
-        new_file(
-            c(["题库"] + bank + [diff[0].replace("/", "、")] + prob + ["Problem.md"]))
-
-        new_file(c(["难度"] + ["index.md"]))
-        new_file(c(["难度"] + [diff[0].replace("/", "、")] + ["index.md"]))
-
-        new_file(c(["算法"] + ["index.md"]))
-        for a in algo:
-            new_file(c(["算法"] + [a] + ["index.md"]))
-
-        if dist:
-            new_file(c(["地区"] + ["index.md"]))
-            for d in dist:
-                new_file(c(["地区"] + [d] + ["index.md"]))
-
-        if time:
-            new_file(c(["时间"] + ["index.md"]))
-            for t in time:
-                new_file(c(["时间"] + [t] + ["index.md"]))
-
-        if spe:
-            new_file(c(["特殊题目"] + ["index.md"]))
-            for s in spe:
-                new_file(c(["特殊题目"] + [s] + ["index.md"]))
-
-        if src:
-            new_file(c(["来源"] + ["index.md"]))
-            for s in src:
-                new_file(c(["来源"] + [s] + ["index.md"]))
 
         print("输入题面(Press 'EOF' to exit)")
         with open(c(["题库"] + bank + [diff[0].replace("/", "、")] + prob + ["Problem.md"]), 'w', encoding='utf-8') as f:
@@ -142,59 +103,74 @@ while cmd != 'q':
                         txt = True
                 t = input()
 
-        with open(c(["题库", "index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# 题库\n" + "\n" + "按题库分类题解\n")
-        with open(c(["题库"] + bank + ["index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') +
-                    "\n\n" + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "题目的题解\n")
-        with open(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + " <font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>\n\n" +
-                    (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "中<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
+        if os.path.exists(c(["题库", "index.md"])):
+            with open(c(["题库", "index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# 题库\n" + "\n" + "按题库分类题解\n")
+        if os.path.exists(c(["题库"] + bank + ["index.md"])):
+            with open(c(["题库"] + bank + ["index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') +
+                        "\n\n" + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "题目的题解\n")
+        if os.path.exists(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"])):
+            with open(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + " <font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>\n\n" +
+                        (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "中<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
 
-        with open(c(["算法", "index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# 算法\n\n按算法分类题解")
+        if not os.path.exists(c(["算法", "index.md"])):
+            with open(c(["算法", "index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# 算法\n\n按算法分类题解")
         for a in algo:
-            with open(c(["算法", a, "index.md"]), 'w', encoding='utf-8') as f:
-                f.write("# <font color=2949B4>" + a +
-                        "</font>\n\n使用<font color=2949B4>" + a + "</font>算法的题目的题解")
+            if not os.path.exists(c(["算法", a, "index.md"])):
+                with open(c(["算法", a, "index.md"]), 'x', encoding='utf-8') as f:
+                    f.write("# <font color=2949B4>" + a +
+                            "</font>\n\n使用<font color=2949B4>" + a + "</font>算法的题目的题解")
 
-        with open(c(["难度", "index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# 难度\n\n按难度分类题解")
-        with open(c(["难度", diff[0].replace("/", "、"), "index.md"]), 'w', encoding='utf-8') as f:
-            f.write("# <font color=" + COLOR[diff[0]] + ">" + diff[0] +
-                    "</font>\n\n<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
+        if not os.path.exists(c(["难度", "index.md"])):
+            with open(c(["难度", "index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# 难度\n\n按难度分类题解")
+        if not os.path.exists(c(["难度", diff[0].replace("/", "、"), "index.md"])):
+            with open(c(["难度", diff[0].replace("/", "、"), "index.md"]), 'x', encoding='utf-8') as f:
+                f.write("# <font color=" + COLOR[diff[0]] + ">" + diff[0] +
+                        "</font>\n\n<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
 
         if dist:
-            with open(c(["地区"] + ["index.md"]), 'w', encoding='utf-8') as f:
-                f.write("# 地区\n\n按地区分类题解")
+            if not os.path.exists(c(["地区"] + ["index.md"])):
+                with open(c(["地区"] + ["index.md"]), 'x', encoding='utf-8') as f:
+                    f.write("# 地区\n\n按地区分类题解")
             for d in dist:
-                with open(c(["地区"] + [d] + ["index.md"]), 'w', encoding='utf-8') as f:
-                    f.write("# <font color=" + COLOR['District'] + ">" + d +
-                            "</font>\n\n来自<font color=" + COLOR['District'] + ">" + d + "</font>的题目的题解")
+                if not os.path.exists(c(["地区"] + [d] + ["index.md"])):
+                    with open(c(["地区"] + [d] + ["index.md"]), 'x', encoding='utf-8') as f:
+                        f.write("# <font color=" + COLOR['District'] + ">" + d +
+                                "</font>\n\n来自<font color=" + COLOR['District'] + ">" + d + "</font>的题目的题解")
 
         if time:
-            with open(c(["时间"] + ["index.md"]), 'w', encoding='utf-8') as f:
-                f.write("# 时间\n\n按时间分类题解")
+            if not os.path.exists(c(["时间"] + ["index.md"])):
+                with open(c(["时间"] + ["index.md"]), 'x', encoding='utf-8') as f:
+                    f.write("# 时间\n\n按时间分类题解")
             for t in time:
-                with open(c(["时间"] + [t] + ["index.md"]), 'w', encoding='utf-8') as f:
-                    f.write("# <font color=3498DB>" + t +
-                            "</font>\n\n<font color=3498DB>" + t + "</font>题目的题解")
+                if not os.path.exists(c(["时间"] + [t] + ["index.md"])):
+                    with open(c(["时间"] + [t] + ["index.md"]), 'x', encoding='utf-8') as f:
+                        f.write("# <font color=3498DB>" + t +
+                                "</font>\n\n<font color=3498DB>" + t + "</font>题目的题解")
 
         if spe:
-            with open(c(["特殊题目"] + ["index.md"]), 'w', encoding='utf-8') as f:
-                f.write("# 特殊题目\n\n归纳整理特殊题目（不含O2优化）")
+            if not os.path.exists(c(["特殊题目"] + ["index.md"])):
+                with open(c(["特殊题目"] + ["index.md"]), 'x', encoding='utf-8') as f:
+                    f.write("# 特殊题目\n\n归纳整理特殊题目（不含O2优化）")
             for s in spe:
-                with open(c(["特殊题目"] + [s] + ["index.md"]), 'w', encoding='utf-8') as f:
-                    f.write("# <font color=" + COLOR["Special"] +
-                            ">" + s + "</font>\n\n使用" + s + "判题方法的题目的题解")
+                if not os.path.exists(c(["特殊题目"] + [s] + ["index.md"])):
+                    with open(c(["特殊题目"] + [s] + ["index.md"]), 'x', encoding='utf-8') as f:
+                        f.write("# <font color=" + COLOR["Special"] +
+                                ">" + s + "</font>\n\n使用" + s + "判题方法的题目的题解")
 
         if src:
-            with open(c(["来源"] + ["index.md"]), 'w', encoding='utf-8') as f:
-                f.write("# 来源\n\n按来源分类题解")
+            if not os.path.exists(c(["来源"] + ["index.md"])):
+                with open(c(["来源"] + ["index.md"]), 'x', encoding='utf-8') as f:
+                    f.write("# 来源\n\n按来源分类题解")
             for s in src:
-                with open(c(["来源"] + [s] + ["index.md"]), 'w', encoding='utf-8') as f:
-                    f.write("# <font color=13C2C2>" + s +
-                            "</font>\n\n来自<font color=13C2C2>" + s + "</font>的题目的题解")
+                if not os.path.exists(c(["来源"] + [s] + ["index.md"])):
+                    with open(c(["来源"] + [s] + ["index.md"]), 'x', encoding='utf-8') as f:
+                        f.write("# <font color=13C2C2>" + s +
+                                "</font>\n\n来自<font color=13C2C2>" + s + "</font>的题目的题解")
 
     elif cmd in LANG:
         cnt = len([i for i in os.listdir(c(PROBLEM)) if i.endswith(f".{cmd}")])
@@ -209,11 +185,12 @@ while cmd != 'q':
                 while t != 'EOF':
                     f.write(t + '\n')
                     t = input()
-            new_file(c(PROBLEM + [NAME[cmd] + ".md"]))
-            with open(c(PROBLEM + [NAME[cmd] + ".md"]), 'w', encoding='utf-8') as f:
+            with open(c(PROBLEM + [NAME[cmd] + ".md"]), 'x', encoding='utf-8') as f:
                 f.write(f"# {prob[0]} {NAME[cmd]} 题解\n\n")
                 f.write("## 题意理解\n\n")
-                f.write(f"@import \"Code.{cmd}\"\n\n")
+                f.write("## 题目分析\n\n")
+                f.write("## 编程实现\n\n")
+                f.write(f"@import \"Code.{cmd}\"\n")
                 f.write("@import \"Problem.md\"")
         else:
             for i in range(cnt + 1, cnt + num + 1):
@@ -222,8 +199,7 @@ while cmd != 'q':
                     while t != 'EOF':
                         f.write(t + '\n')
                         t = input()
-                new_file(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]))
-                with open(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]), 'w', encoding='utf-8') as f:
+                with open(c(PROBLEM + [f"{NAME[cmd]}{i}.md"]), 'x', encoding='utf-8') as f:
                     f.write(f"# {prob[0]} {NAME[cmd]} 题解{i}\n\n")
                     f.write("## 题意理解\n\n")
                     f.write(f"@import \"Code{i}.{cmd}\"\n\n")
