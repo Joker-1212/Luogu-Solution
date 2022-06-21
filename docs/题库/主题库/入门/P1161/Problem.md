@@ -1,4 +1,4 @@
-# [P1161开灯](https://www.luogu.com.cn/problem/P1161)
+# [P1161 开灯](https://www.luogu.com.cn/problem/P1161)
 
 ***Tags:*** **[<font color=FE4C61>入门</font>](../../../../难度/入门/index.md)$\quad$[<font color=2949B4>模拟</font>](../../../../算法/模拟/index.md)$\quad$[<font color=2949B4>进制</font>](../../../../算法/进制/index.md)**
 
