@@ -1,8 +1,8 @@
 # Project Info
-site_name: Luogu Solution
+site_name: OI Notes
 site_author: Joker_1212
 strict: false
-site_description: Luogu Solution是一个存储我自己的洛谷题解的地方
+site_description: OI Notes是一个存储我自己的OI笔记的地方
 
 # Repository
 repo_name: Joker-1212/OI-Notes
