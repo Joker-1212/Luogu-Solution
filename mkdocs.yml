@@ -475,6 +475,12 @@ nav:
           - 括号序列: ./OI-wiki/topic/bracket.md
       - 关于 Hulu:
           - 关于 Hulu: ./OI-wiki/intro/hulu.md
+  - 笔记:
+      - HomePage: "./笔记/index.md"
+      - 洛谷日报:
+          - HomePage: "./笔记/洛谷日报/index.md"
+      - 题解:
+          - HomePage: "./笔记/题解/index.md"
   - 算法:
       - HomePage: "./算法/index.md"
       - 枚举，暴力:
@@ -719,12 +725,6 @@ nav:
               - P1150:
                   - Problem: "./题库/主题库/入门/P1150/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1150/C++.md"
-  - 笔记:
-      - HomePage: "./笔记/index.md"
-      - 洛谷日报:
-          - HomePage: "./笔记/洛谷日报/index.md"
-      - 题解:
-          - HomePage: "./笔记/题解/index.md"
 
 # Theme
 theme:
