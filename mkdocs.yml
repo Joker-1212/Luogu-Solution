@@ -327,9 +327,9 @@ nav:
               - 常值: ./OI-wiki/lang/const.md
               - 新版 C++ 特性: ./OI-wiki/lang/new.md
               - pb_ds:
-                  - pb_ds 简介: ./OI-wiki/lang/pb-./OI-wiki/ds/index.md
-                  - 堆: ./OI-wiki/lang/pb-./OI-wiki/ds/pq.md
-                  - 平衡树: ./OI-wiki/lang/pb-./OI-wiki/ds/tree.md
+                  - pb_ds 简介: ./OI-wiki/lang/pb-ds/index.md
+                  - 堆: ./OI-wiki/lang/pb-ds/pq.md
+                  - 平衡树: ./OI-wiki/lang/pb-ds/tree.md
           - C 与 C++ 区别: ./OI-wiki/lang/c-cpp.md
           - Pascal 转 C++ 急救: ./OI-wiki/lang/pas-cpp.md
           - Python 速成: ./OI-wiki/lang/python.md
