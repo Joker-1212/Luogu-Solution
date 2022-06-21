@@ -483,6 +483,12 @@ nav:
           - HomePage: "./笔记/题解/index.md"
   - 算法:
       - HomePage: "./算法/index.md"
+      - 进制:
+          - HomePage: "./docs/算法/进制/index.md"
+          - 入门:
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
       - 枚举，暴力:
           - HomePage: "./算法/枚举，暴力/index.md"
           - 入门:
@@ -532,6 +538,9 @@ nav:
               - P1152:
                   - Problem: "./题库/主题库/入门/P1152/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1152/C++.md"
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
       - 排序:
           - HomePage: "./算法/排序/index.md"
           - 入门:
@@ -626,6 +635,9 @@ nav:
           - P1152:
               - Problem: "./题库/主题库/入门/P1152/Problem.md"
               - C++题解: "./题库/主题库/入门/P1152/C++.md"
+          - P1046:
+              - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
   - 时间:
       - HomePage: "./时间/index.md"
       - 1999:
@@ -755,6 +767,9 @@ nav:
               - P1152:
                   - Problem: "./题库/主题库/入门/P1152/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1152/C++.md"
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
 
 # Theme
 theme:
