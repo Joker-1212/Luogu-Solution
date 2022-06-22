@@ -103,14 +103,14 @@ while cmd != 'q':
                         txt = True
                 t = input()
 
-        if os.path.exists(c(["题库", "index.md"])):
+        if not os.path.exists(c(["题库", "index.md"])):
             with open(c(["题库", "index.md"]), 'x', encoding='utf-8') as f:
                 f.write("# 题库\n" + "\n" + "按题库分类题解\n")
-        if os.path.exists(c(["题库"] + bank + ["index.md"])):
+        if not os.path.exists(c(["题库"] + bank + ["index.md"])):
             with open(c(["题库"] + bank + ["index.md"]), 'x', encoding='utf-8') as f:
                 f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') +
                         "\n\n" + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "题目的题解\n")
-        if os.path.exists(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"])):
+        if not os.path.exists(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"])):
             with open(c(["题库"] + bank + [diff[0].replace("/", "、")] + ["index.md"]), 'x', encoding='utf-8') as f:
                 f.write("# " + (bank[0] if bank[0] != '主题库' else '洛谷主题库') + " <font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>\n\n" +
                         (bank[0] if bank[0] != '主题库' else '洛谷主题库') + "中<font color=" + COLOR[diff[0]] + ">" + diff[0] + "</font>题目的题解")
