@@ -4,6 +4,7 @@ using namespace std;
 bool is[10005];
 int primer[5010], cnt = 0;
 
+// 线性筛
 void mark()
 {
     memset(is, 0, sizeof(is));
