@@ -29,7 +29,7 @@ for i in range(8):
 diff = list(map(lambda x: x.strip(), input("难度(用序号表示): ").split()))
 diff = [CODE[diff[0]]]
 PROBLEM = ["题库", bank[0], diff[0].replace("/", "、"), prob[0]]
-cmd = input(">>> ")
+cmd = input(">>> ").lower()
 
 while cmd != 'q':
     if cmd == "p":
@@ -84,7 +84,7 @@ while cmd != 'q':
                     f"$\\quad$[<font color={COLOR['Time']}>" + t + "</font>](../../../../时间/" + t + "/index.md)")
             for s in spe:
                 f.write(
-                    f"$\\quad$[<font color={COLOR['Special']}>" + s + "</font>](../../../../特殊题目/" + s + "/index.md)")
+                    f"$\\quad$[<font color={COLOR['Special']}>" + s if s != 'SPJ' else "Special Judge" + "</font>](../../../../特殊题目/" + s + "/index.md)")
             f.write("**\n\n")
 
             # add limits
@@ -160,7 +160,7 @@ while cmd != 'q':
                 if not os.path.exists(c(["特殊题目"] + [s] + ["index.md"])):
                     with open(c(["特殊题目"] + [s] + ["index.md"]), 'x', encoding='utf-8') as f:
                         f.write("# <font color=" + COLOR["Special"] +
-                                ">" + s + "</font>\n\n使用" + s + "判题方法的题目的题解")
+                                ">" + s if s != 'SPJ' else "Special Judge" + "</font>\n\n使用" + s if s != 'SPJ' else "Special Judge" + "判题方法的题目的题解")
 
         if src:
             if not os.path.exists(c(["来源"] + ["index.md"])):
@@ -213,4 +213,4 @@ while cmd != 'q':
         for i in LANG:
             print(f"\t{NAME[i]}: {i}")
 
-    cmd = input(">>> ")
+    cmd = input(">>> ").lower()
