@@ -577,6 +577,9 @@ nav:
               - P1200:
                   - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
+              - P1304:
+                  - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
       - 搜索:
           - HomePage: "./算法/搜索/index.md"
           - 入门:
@@ -586,12 +589,18 @@ nav:
               - P1151:
                   - Problem: "./题库/主题库/入门/P1151/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1151/C++.md"
+              - P1304:
+                  - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
       - 素数判断，质数，筛法:
           - HomePage: "./算法/素数判断，质数，筛法/index.md"
           - 入门:
               - P1075:
                   - Problem: "./题库/主题库/入门/P1075/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1075/C++.md"
+              - P1304:
+                  - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
       - 字符串:
           - HomePage: "./算法/字符串/index.md"
           - 入门:
@@ -654,6 +663,9 @@ nav:
           - P1200:
               - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
               - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
+          - P1304:
+              - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
   - 时间:
       - HomePage: "./时间/index.md"
       - 1999:
@@ -804,6 +816,9 @@ nav:
               - P1200:
                   - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
+              - P1304:
+                  - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
 
 # Theme
 theme:
