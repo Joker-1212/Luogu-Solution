@@ -544,6 +544,9 @@ nav:
               - P1179:
                   - Problem: "./题库/主题库/入门/P1179/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1179/C++.md"
+              - P1307:
+                  - Problem: "./docs/题库/主题库/入门/P1307/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1307/C++.md"
       - 排序:
           - HomePage: "./算法/排序/index.md"
           - 入门:
@@ -614,7 +617,9 @@ nav:
               - P1200:
                   - Problem: "./docs/题库/主题库/入门/P1200/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1200/C++.md"
-          - 入门:
+              - P1307:
+                  - Problem: "./docs/题库/主题库/入门/P1307/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1307/C++.md"
   - 难度:
       - HomePage: "./难度/index.md"
       - 入门:
@@ -666,6 +671,9 @@ nav:
           - P1304:
               - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
               - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
+          - P1307:
+              - Problem: "./docs/题库/主题库/入门/P1307/Problem.md"
+              - C++题解: "./docs/题库/主题库/入门/P1307/C++.md"
   - 时间:
       - HomePage: "./时间/index.md"
       - 1999:
@@ -710,6 +718,12 @@ nav:
               - P1179:
                   - Problem: "./题库/主题库/入门/P1179/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1179/C++.md"
+      - 2011:
+          - HomePage: "./docs/时间/2011/index.md"
+          - 入门:
+              - P1046:
+                  - Problem: "./docs/题库/主题库/入门/P1046/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1046/C++.md"
       - 2012:
           - HomePage: "./时间/2012/index.md"
           - 入门:
@@ -745,6 +759,9 @@ nav:
               - P1179:
                   - Problem: "./题库/主题库/入门/P1179/Problem.md"
                   - C++题解: "./题库/主题库/入门/P1179/C++.md"
+              - P1307:
+                  - Problem: "./docs/题库/主题库/入门/P1307/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1307/C++.md"
       - NOIp提高组:
           - HomePage: "./来源/NOIp提高组/index.md"
           - 入门:
@@ -819,6 +836,9 @@ nav:
               - P1304:
                   - Problem: "./docs/题库/主题库/入门/P1304/Problem.md"
                   - C++题解: "./docs/题库/主题库/入门/P1304/C++.md"
+              - P1307:
+                  - Problem: "./docs/题库/主题库/入门/P1307/Problem.md"
+                  - C++题解: "./docs/题库/主题库/入门/P1307/C++.md"
 
 # Theme
 theme:
